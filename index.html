@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body><main id="container">
+      <form><h3>¿Cuál es el segundo nombre de Homer J.Simpson?</h3>
+        <section class="radio0" id="p0">
+        
+        
+          <input id="0" type="radio" value="1" name="p0" onclick="respuesta(0, this)">
+           <label for="0">Joey</label>
+          <input id="1" type="radio" value="2" name="p0" onclick="respuesta(0, this)">
+            <label for="1">Jay</label>
+          <input id="rc" type="radio" value="3" name="p0" onclick="respuesta(0, this)">
+            <label for="rc">Jhon</label>
+          <input id="rd" type="radio" value="4" name="p0" onclick="respuesta(0, this)">
+           <label for="rd">Jim</label>
+        
+        </section>
+          <section class="radio1" id="p1">
+      
+          <h3>¿Que único personaje es dibujado con 5 dedos?</h3>
+          <input id="re" type="radio" value="1" name="p1"onclick="respuesta(1, this)">
+          <label for="re">Maggie</label>
+          <input id="rf" type="radio" value="2" name="p1"onclick="respuesta(1, this)">
+          <label for="rf">Dios</label>
+          <input id="rg" type="radio" value="3" name="p1"onclick="respuesta(1, this)">
+          <label for="rg">La madre de homer</label>
+          <input id="rh" type="radio" value="4" name="p1"onclick="respuesta(1, this)">
+          <label for="rh">Snake</label>
+          </section>
+
+          <section class="Radio2" id="p2">
+          <h3>¿A que es alergico Bart?</h3>
+          <input id="ri" type="radio" value="1" name="p2"onclick="respuesta(2, this)">
+          <label for="ri">Cacahuetes</label>
+          <input id="rj" type="radio" value="2" name="p2"onclick="respuesta(2, this)">
+          <label for="rj">Leche</label>
+          <input id="rk" type="radio" value="3" name="p2"onclick="respuesta(2, this)">
+          <label for="rk">Langostinos</label>
+          <input id="rl" type="radio" value="4" name="p2"onclick="respuesta(2, this)">
+          <label for="rl">Tomate</label>
+          
+          <section class="Radio3" id="p3">
+          <h3>¿Cuál es el segundo nombre de Milhouse van Houten?</h3>
+          <input id="rm" type="radio" value="1" name="p3" onclick="respuesta(3, this)">
+          <label for="rm">Stalin</label>
+          <input id="rn" type="radio" value="2" name="p3" onclick="respuesta(3, this)">
+          <label for="rn">Lenin</label>
+          <input id="ro" type="radio" value="3" name="p3" onclick="respuesta(3, this)">
+          <label for="ro">Churchil</label>
+          <input id="rp" type="radio" value="4" name="p3" onclick="respuesta(3, this)">
+          <label for="rp">Mussolini</label>
+        </section>
+
+        <section class="Radio4" id="p4">
+          <h3>¿En qué show aparecían los Simpson originalmente? </h3>
+          <input id="rq" type="radio" value="1" name="p4" onclick="respuesta(4, this)">
+          <label for="rq">Saturday Night live</label>
+          <input id="rr" type="radio" value="2" name="p4" onclick="respuesta(4, this)">
+          <label for="rr">David Letterman Show</label>
+          <input id="rs" type="radio" value="3" name="p4" onclick="respuesta(4, this)">
+          <label for="rs">Tracey Ullman Show</label>
+          <input id="rt" type="radio" value="4" name="p4" onclick="respuesta(4, this)">
+          <label for="rt">The Tonight Show</label>
+        </div>
+
+      </section>
+      <section>
+        <button class="my-button" type="button" onclick="corregir()">Resultado</button>
+        <h2>Aciertos:<span id="resultado"></span></h2>
+      </section>
+      </form></main>
+
+    
+
+
+
+
+
+  
+</body>
+<script src="script.js"></script>
+</html>

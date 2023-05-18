@@ -1,0 +1,113 @@
+form input[type="radio"]{
+    display: none;
+}
+
+form label{
+    width: 200px;
+    color: #d9d9d9;
+    background-color: #b32900;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: baseline;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 15px;
+    height: 50px;
+    
+    
+}
+
+
+form label:hover{
+    background-color: rgba(0,116,217,0.1);
+
+}
+form input[type="radio"]:checked + label{
+    background: #de8531;
+    color: black;
+
+}
+
+
+#container {
+display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  }
+ 
+
+   
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    
+    background-color: #330a04;
+    background-image: url("/images/int.jpg");
+    color: #bacca4;
+    font-family: 'Roboto Mono', monospac;
+  }
+  form {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    align-self: center;
+   background-color: #6c1305;
+   border-radius: 15px;
+   border-color: black;
+
+  }
+  .my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #efac41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: #de8531;
+  }
+  
+  .my-button:focus {
+    outline: none;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+  }
+  @media only screen and (max-width: 768px) {
+    form label{
+        width: 40%px;
+        color: #bacca4;
+        background-color: #b32900;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        margin-bottom: 15px;
+        height: 50px;
+        flex-direction: column;
+        
+    }
+    form {
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        align-self: center;
+       background-color: #6c1305;
+       border-radius: 15px;
+       border-color: black;
+    
+      }
+      
+  }
